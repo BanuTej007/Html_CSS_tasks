@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task6</title>
+    <style>
+        #i1{
+            text-align: end;
+        }
+        #i2{
+            background-color: rgb(32, 216, 29);
+            color:white;
+            width: 100%;
+            height: 30px;
+        }
+        #i3{
+            background-color: red;
+            color:white;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #i4{
+            padding: 12px 0px;
+        }
+        .c1{
+            height: 30px;
+        }
+        .c2{
+            background-color: lightgray;
+            height: 50px;
+        }
+        .c3{
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="0" style="margin: auto;">
+        <tr>
+            <td colspan="2"><img src="./css_image.png"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Username</b></td>
+        </tr>
+        <tr>
+            <td class="c3" colspan="2"><input class="c1" type="text" placeholder="Enter Username" size="70"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Password</b></td>
+        </tr>
+        <tr>
+            <td class="c3" colspan="2"><input class="c1" type="password" placeholder="Enter Password" size="70"> </td>
+        </tr>
+        <tr>
+            <td colspan="2" color="green"><input id="i2" type="button" value="Login"></td>
+        </tr>
+        <tr>
+            <td id="i4" colspan="2"><input type="checkbox" checked>Remember me</td>
+        </tr>
+        <tr class="c2">
+            <td><input id="i3" type="button" value="Cancel"></td>
+            <td id="i1">Forgot <u>password?</u></td>
+        </tr>
+    </table>
+</body>
+</html>
